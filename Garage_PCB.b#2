@@ -122,18 +122,20 @@
 <wire x1="35.611" y1="0" x2="35.611" y2="44.44" width="0" layer="20"/>
 <wire x1="35.611" y1="44.44" x2="0" y2="44.44" width="0" layer="20"/>
 <wire x1="0" y1="44.44" x2="0" y2="0" width="0" layer="20"/>
-<text x="1.27" y="35.052" size="1.016" layer="21" font="vector" ratio="15">5V</text>
+<text x="1.524" y="36.322" size="1.016" layer="21" font="vector" ratio="15">5V</text>
 <text x="1.27" y="27.559" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="5.715" y="40.64" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
 <text x="14.478" y="40.64" size="1.016" layer="21" font="vector" ratio="15" rot="R90">VIN</text>
-<text x="30.226" y="38.608" size="1.016" layer="21" font="vector" ratio="15">BTN_P</text>
-<text x="29.845" y="30.734" size="1.016" layer="21" font="vector" ratio="15">BTN_N</text>
-<text x="1.27" y="7.239" size="1.016" layer="21" font="vector" ratio="15">LED_O</text>
-<text x="1.27" y="14.859" size="1.016" layer="21" font="vector" ratio="15">RNG_I</text>
-<text x="29.464" y="4.699" size="1.016" layer="21" font="vector" ratio="15">SW_COM</text>
-<text x="29.464" y="12.192" size="1.016" layer="21" font="vector" ratio="15">SW_I</text>
-<text x="1.27" y="25.019" size="1.016" layer="21" font="vector" ratio="15">RNG_I</text>
-<text x="1.27" y="17.399" size="1.016" layer="21" font="vector" ratio="15">LED_O</text>
+<text x="29.845" y="38.862" size="1.016" layer="21" font="vector" ratio="15">BTN_P</text>
+<text x="29.591" y="30.226" size="1.016" layer="21" font="vector" ratio="15">BTN_N</text>
+<text x="1.27" y="6.096" size="1.016" layer="21" font="vector" ratio="15">LED_O</text>
+<text x="1.27" y="14.986" size="1.016" layer="21" font="vector" ratio="15">RNG_I</text>
+<text x="29.464" y="4.572" size="1.016" layer="21" font="vector" ratio="15">SW_COM</text>
+<text x="29.845" y="13.335" size="1.016" layer="21" font="vector" ratio="15">SW_I</text>
+<text x="1.27" y="25.781" size="1.016" layer="21" font="vector" ratio="15">RNG_I</text>
+<text x="1.27" y="16.891" size="1.016" layer="21" font="vector" ratio="15">LED_O</text>
+<text x="19.05" y="40.64" size="1.016" layer="21" font="vector" ratio="15">Designed by
+Mike Loptien</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -224,6 +226,76 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="10.16" y1="-15.24" x2="7.62" y2="-15.24" width="0.2032" layer="21"/>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.2032" layer="21"/>
 <wire x1="7.62" y1="15.24" x2="10.16" y2="15.24" width="0.2032" layer="21"/>
+</package>
+<package name="SPARK_LOGO_PLUS_PLANE">
+<polygon width="0.0254" layer="29">
+<vertex x="-1.5494" y="1.524"/>
+<vertex x="-0.5842" y="0"/>
+<vertex x="-1.5494" y="-1.5748"/>
+<vertex x="0" y="-0.5588"/>
+<vertex x="1.5748" y="-1.6002"/>
+<vertex x="0.5588" y="0"/>
+<vertex x="1.524" y="1.5494"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0" y="2.2352"/>
+<vertex x="-0.254" y="1.0668"/>
+<vertex x="0" y="0.9144"/>
+<vertex x="0.254" y="1.0668"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-2.2352" y="0"/>
+<vertex x="-1.0668" y="-0.2286"/>
+<vertex x="-0.9144" y="0"/>
+<vertex x="-1.0668" y="0.2286"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.0668" y="0.2286"/>
+<vertex x="0.9144" y="0"/>
+<vertex x="1.0668" y="-0.2286"/>
+<vertex x="2.1844" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.254" y="-1.1176"/>
+<vertex x="0" y="-2.2352"/>
+<vertex x="0.254" y="-1.1176"/>
+<vertex x="0" y="-0.9398"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.5494" y="1.524"/>
+<vertex x="-0.5842" y="0"/>
+<vertex x="-1.5494" y="-1.5748"/>
+<vertex x="0" y="-0.5588"/>
+<vertex x="1.5748" y="-1.6002"/>
+<vertex x="0.5588" y="0"/>
+<vertex x="1.524" y="1.5494"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="0" y="2.2352"/>
+<vertex x="-0.254" y="1.0668"/>
+<vertex x="0" y="0.9144"/>
+<vertex x="0.254" y="1.0668"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-2.2352" y="0"/>
+<vertex x="-1.0668" y="-0.2286"/>
+<vertex x="-0.9144" y="0"/>
+<vertex x="-1.0668" y="0.2286"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="1.0668" y="0.2286"/>
+<vertex x="0.9144" y="0"/>
+<vertex x="1.0668" y="-0.2286"/>
+<vertex x="2.1844" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-0.254" y="-1.1176"/>
+<vertex x="0" y="-2.2352"/>
+<vertex x="0.254" y="-1.1176"/>
+<vertex x="0" y="-0.9398"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -581,50 +653,51 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-77.47" y="49.53"/>
-<element name="U$1" library="Spark" package="SPARK_CORE" value="SPARK_CORECORE" x="17.78" y="19.05"/>
+<element name="SPARK" library="Spark" package="SPARK_CORE" value="SPARK_CORECORE" x="17.78" y="19.05"/>
 <element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="11.43" y="41.91" rot="R180"/>
-<element name="JP2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="30.48" rot="R90"/>
-<element name="JP3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="10.16" rot="R90"/>
-<element name="JP4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="33.02" y="36.322" rot="R270"/>
+<element name="JP2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="34.29" rot="R270"/>
+<element name="JP3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="12.7" rot="R270"/>
+<element name="JP4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="32.893" y="33.274" rot="R90"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="TO220V" value="MOSFET-NCHANNELFQP30N06L" x="33.02" y="22.86" rot="R90">
 <attribute name="PROD_ID" value="TRANS-10060" x="76.2" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10K" x="31.75" y="16.51"/>
-<element name="IC1" library="SparkFun-PowerIC" package="TO-220-ALT" value="" x="17.78" y="25.4" rot="MR180"/>
-<element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="" x="15.24" y="33.02"/>
-<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="" x="20.32" y="33.02" rot="R180"/>
+<element name="IC1" library="SparkFun-PowerIC" package="TO-220-ALT" value="" x="17.78" y="25.4" rot="R180"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="" x="20.32" y="33.02" rot="R180"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="" x="15.24" y="33.02"/>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="1K" x="31.75" y="29.21" rot="R180"/>
-<element name="JP5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="33.02" y="10.16" rot="R270"/>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="" x="31.75" y="14.478"/>
+<element name="JP5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="33.02" y="7.62" rot="R90"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="" x="31.75" y="15.113"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="33.02" y="2.54"/>
 <element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="41.91"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="33.02" y="41.91"/>
-<element name="JP6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="20.32" rot="R90"/>
+<element name="JP6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="2.54" y="23.495" rot="R270"/>
+<element name="U$2" library="Spark" package="SPARK_LOGO_PLUS_PLANE" value="SPARK_LOGO_WITH_PLANE" x="25.4" y="38.1"/>
 </elements>
 <signals>
 <signal name="VDDA">
-<contactref element="U$1" pad="22"/>
+<contactref element="SPARK" pad="22"/>
 </signal>
 <signal name="BTN_P">
 <contactref element="JP4" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="33.02" y1="36.322" x2="30.988" y2="31.75" width="0.6096" layer="1"/>
+<wire x1="32.893" y1="33.274" x2="30.988" y2="31.75" width="0.6096" layer="1"/>
 <wire x1="30.988" y1="31.75" x2="30.988" y2="29.298" width="0.6096" layer="1"/>
 <wire x1="30.988" y1="29.298" x2="30.9" y2="29.21" width="0.254" layer="1"/>
 </signal>
 <signal name="BTN_N">
 <contactref element="JP4" pad="2"/>
 <contactref element="Q1" pad="3"/>
-<wire x1="33.02" y1="32.822" x2="34.163" y2="36.322" width="0.6096" layer="1"/>
+<wire x1="32.893" y1="36.774" x2="34.163" y2="36.322" width="0.6096" layer="1"/>
 <wire x1="34.163" y1="36.322" x2="34.671" y2="35.814" width="0.6096" layer="1"/>
 <wire x1="34.671" y1="35.814" x2="34.671" y2="27.051" width="0.6096" layer="1"/>
 <wire x1="34.671" y1="27.051" x2="33.02" y2="25.4" width="0.6096" layer="1"/>
 </signal>
 <signal name="LED_O">
 <contactref element="JP3" pad="2"/>
-<contactref element="U$1" pad="17"/>
-<wire x1="2.54" y1="13.66" x2="2.54" y2="6.35" width="0.6096" layer="1"/>
+<contactref element="SPARK" pad="17"/>
+<wire x1="2.54" y1="9.2" x2="2.54" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="2.54" y1="6.35" x2="7.62" y2="1.27" width="0.6096" layer="1"/>
 <wire x1="7.62" y1="1.27" x2="17.78" y2="1.27" width="0.6096" layer="1"/>
 <wire x1="17.78" y1="1.27" x2="22.86" y2="6.35" width="0.6096" layer="1"/>
@@ -632,10 +705,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.86" y1="11.43" x2="26.67" y2="15.24" width="0.6096" layer="1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="U$1" pad="24"/>
+<contactref element="SPARK" pad="24"/>
 </signal>
 <signal name="N$15">
-<contactref element="U$1" pad="19"/>
+<contactref element="SPARK" pad="19"/>
 <contactref element="R1" pad="1"/>
 <wire x1="30.9" y1="16.51" x2="30.9" y2="17.487" width="0.6096" layer="1"/>
 <wire x1="30.9" y1="17.487" x2="28.067" y2="20.32" width="0.6096" layer="1"/>
@@ -648,19 +721,20 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="33.02" y1="16.93" x2="32.6" y2="16.51" width="0.6096" layer="1"/>
 </signal>
 <signal name="RNG_I">
-<contactref element="U$1" pad="6"/>
+<contactref element="SPARK" pad="6"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="13.97" width="0.6096" layer="1"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="13.97" width="0.6096" layer="1"/>
 <wire x1="2.54" y1="13.97" x2="8.89" y2="20.32" width="0.6096" layer="1"/>
 </signal>
 <signal name="24V">
 <contactref element="IC1" pad="IN"/>
 <contactref element="C1" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="11.43" y1="41.91" x2="11.43" y2="35.98" width="1.27" layer="1"/>
-<wire x1="11.43" y1="35.98" x2="14.39" y2="33.02" width="1.27" layer="1"/>
-<wire x1="15.24" y1="29.21" x2="14.39" y2="30.06" width="1.27" layer="1"/>
-<wire x1="14.39" y1="30.06" x2="14.39" y2="33.02" width="1.27" layer="1"/>
+<wire x1="21.17" y1="33.02" x2="21.17" y2="30.06" width="1.27" layer="1"/>
+<wire x1="21.17" y1="30.06" x2="20.32" y2="29.21" width="1.27" layer="1"/>
+<wire x1="21.17" y1="33.02" x2="21.17" y2="35.98" width="1.27" layer="1"/>
+<wire x1="21.17" y1="35.98" x2="15.24" y2="41.91" width="1.27" layer="1"/>
+<wire x1="15.24" y1="41.91" x2="11.43" y2="41.91" width="1.27" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -668,8 +742,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="GND"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="JP2" pad="2"/>
-<contactref element="U$1" pad="2"/>
-<contactref element="U$1" pad="21"/>
+<contactref element="SPARK" pad="2"/>
+<contactref element="SPARK" pad="21"/>
 <polygon width="0.254" layer="16">
 <vertex x="1.27" y="43.18"/>
 <vertex x="34.29" y="43.18"/>
@@ -684,9 +758,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="OUT"/>
 <contactref element="C2" pad="1"/>
 <contactref element="JP2" pad="1"/>
-<contactref element="U$1" pad="1"/>
+<contactref element="SPARK" pad="1"/>
 <contactref element="JP5" pad="1"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.254" layer="1" thermals="no">
 <vertex x="1.27" y="43.18"/>
 <vertex x="34.29" y="43.18"/>
 <vertex x="34.29" y="1.27"/>
@@ -705,24 +779,25 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RD_SW_I">
 <contactref element="JP5" pad="2"/>
 <contactref element="R3" pad="2"/>
-<wire x1="32.6" y1="14.478" x2="32.6" y2="10.58" width="0.6096" layer="1"/>
-<wire x1="32.6" y1="10.58" x2="33.02" y2="6.66" width="0.6096" layer="1"/>
+<wire x1="32.6" y1="15.113" x2="33.02" y2="14.058" width="0.6096" layer="1"/>
+<wire x1="33.02" y1="14.058" x2="33.02" y2="11.12" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="U$1" pad="16"/>
+<contactref element="SPARK" pad="16"/>
 <contactref element="R3" pad="1"/>
 <wire x1="26.67" y1="12.7" x2="29.122" y2="12.7" width="0.6096" layer="1"/>
-<wire x1="29.122" y1="12.7" x2="30.9" y2="14.478" width="0.6096" layer="1"/>
+<wire x1="29.122" y1="12.7" x2="30.9" y2="15.113" width="0.6096" layer="1"/>
 </signal>
 <signal name="RNG2_I">
 <contactref element="JP6" pad="1"/>
-<contactref element="U$1" pad="5"/>
-<wire x1="2.54" y1="20.32" x2="8.89" y2="22.86" width="0.6096" layer="1"/>
+<contactref element="SPARK" pad="5"/>
+<wire x1="8.89" y1="22.86" x2="8.255" y2="23.495" width="0.6096" layer="1"/>
+<wire x1="8.255" y1="23.495" x2="2.54" y2="23.495" width="0.6096" layer="1"/>
 </signal>
 <signal name="LED2_O">
-<contactref element="U$1" pad="18"/>
+<contactref element="SPARK" pad="18"/>
 <contactref element="JP6" pad="2"/>
-<wire x1="2.54" y1="23.82" x2="6.35" y2="16.51" width="0.6096" layer="16"/>
+<wire x1="2.54" y1="19.995" x2="6.35" y2="16.51" width="0.6096" layer="16"/>
 <wire x1="6.35" y1="16.51" x2="6.35" y2="3.81" width="0.6096" layer="16"/>
 <wire x1="6.35" y1="3.81" x2="7.62" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="7.62" y1="2.54" x2="21.59" y2="2.54" width="0.6096" layer="16"/>
@@ -733,4 +808,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

@@ -2768,16 +2768,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="10.16" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="LED2_0" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="127" x2="205.74" y2="127" width="0.2032" layer="91"/>
+<label x="205.74" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="LED2_O" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D5"/>
 <wire x1="53.34" y1="144.78" x2="63.5" y2="144.78" width="0.2032" layer="91"/>
 <label x="53.34" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="127" x2="205.74" y2="127" width="0.2032" layer="91"/>
-<label x="205.74" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

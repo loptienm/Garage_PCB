@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -459,6 +459,42 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="7.62" y1="-15.24" x2="10.16" y2="-15.24" width="0.2032" layer="21"/>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.2032" layer="21"/>
 </package>
+<package name="SPARK_LOGO2">
+<polygon width="0.0254" layer="21">
+<vertex x="2.2606" y="1.1684"/>
+<vertex x="1.6764" y="1.2954"/>
+<vertex x="1.6002" y="1.1684"/>
+<vertex x="1.6764" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="0.0254" y="1.1684"/>
+<vertex x="0.6096" y="1.2954"/>
+<vertex x="0.7112" y="1.1684"/>
+<vertex x="0.6096" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="0.381" y="1.9304"/>
+<vertex x="0.8636" y="1.1684"/>
+<vertex x="0.3556" y="0.3556"/>
+<vertex x="1.143" y="0.8636"/>
+<vertex x="1.9304" y="0.381"/>
+<vertex x="1.4224" y="1.1684"/>
+<vertex x="1.9304" y="1.9304"/>
+<vertex x="1.143" y="1.4478"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="1.143" y="2.286"/>
+<vertex x="1.016" y="1.6764"/>
+<vertex x="1.143" y="1.6002"/>
+<vertex x="1.27" y="1.6764"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="1.143" y="0.7112"/>
+<vertex x="1.016" y="0.635"/>
+<vertex x="1.143" y="0.0254"/>
+<vertex x="1.27" y="0.635"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="SPARK_CORE">
@@ -490,6 +526,9 @@ Standard 8.5x11 US Letter frame</description>
 <pin name="D2" x="17.78" y="-17.78" length="middle" rot="R180"/>
 <pin name="D1" x="17.78" y="-22.86" length="middle" rot="R180"/>
 <pin name="D0" x="17.78" y="-27.94" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SPARK_LOGO">
+<text x="0" y="0" size="1.778" layer="94" font="vector">Spark</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -556,6 +595,18 @@ Standard 8.5x11 US Letter frame</description>
 <connect gate="G$1" pin="VCC" pad="#24 24 @24"/>
 <connect gate="G$1" pin="VDDA" pad="#22 22 @22"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARK_LOGO2">
+<gates>
+<gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPARK_LOGO2">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2562,7 +2613,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="U$1" library="Spark" deviceset="SPARK_CORE" device="CORE"/>
+<part name="SPARK" library="Spark" deviceset="SPARK_CORE" device="CORE"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
@@ -2581,6 +2632,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
+<part name="U$2" library="Spark" deviceset="SPARK_LOGO2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2592,7 +2644,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="GND1" gate="1" x="121.92" y="10.16"/>
 <instance part="SUPPLY1" gate="G$1" x="114.3" y="10.16"/>
 <instance part="SUPPLY2" gate="G$1" x="109.22" y="10.16"/>
-<instance part="U$1" gate="G$1" x="35.56" y="147.32"/>
+<instance part="SPARK" gate="G$1" x="35.56" y="147.32"/>
 <instance part="JP1" gate="G$1" x="223.52" y="175.26" rot="R180"/>
 <instance part="JP2" gate="G$1" x="223.52" y="160.02" rot="R180"/>
 <instance part="JP3" gate="G$1" x="223.52" y="144.78" rot="R180"/>
@@ -2611,6 +2663,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="STANDOFF3" gate="G$1" x="83.82" y="10.16"/>
 <instance part="STANDOFF4" gate="G$1" x="78.74" y="10.16"/>
 <instance part="JP6" gate="G$1" x="223.52" y="129.54" rot="R180"/>
+<instance part="U$2" gate="G$1" x="22.86" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -2646,21 +2699,21 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="205.74" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D4"/>
+<pinref part="SPARK" gate="G$1" pin="D4"/>
 <wire x1="53.34" y1="139.7" x2="60.96" y2="139.7" width="0.2032" layer="91"/>
 <label x="53.34" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="SPARK" gate="G$1" pin="VCC"/>
 <wire x1="53.34" y1="175.26" x2="58.42" y2="175.26" width="0.2032" layer="91"/>
 <label x="53.34" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D6"/>
+<pinref part="SPARK" gate="G$1" pin="D6"/>
 <wire x1="53.34" y1="149.86" x2="76.2" y2="149.86" width="0.2032" layer="91"/>
 <wire x1="76.2" y1="149.86" x2="76.2" y2="157.48" width="0.2032" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -2676,7 +2729,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </net>
 <net name="RNG_I" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A6"/>
+<pinref part="SPARK" gate="G$1" pin="A6"/>
 <wire x1="17.78" y1="149.86" x2="10.16" y2="149.86" width="0.2032" layer="91"/>
 <label x="10.16" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -2722,12 +2775,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="210.82" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="SPARK" gate="G$1" pin="GND@2"/>
 <wire x1="17.78" y1="170.18" x2="12.7" y2="170.18" width="0.2032" layer="91"/>
 <label x="12.7" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@21"/>
+<pinref part="SPARK" gate="G$1" pin="GND@21"/>
 <wire x1="53.34" y1="160.02" x2="58.42" y2="160.02" width="0.2032" layer="91"/>
 <label x="53.34" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -2747,7 +2800,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="210.82" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RAW"/>
+<pinref part="SPARK" gate="G$1" pin="RAW"/>
 <wire x1="17.78" y1="175.26" x2="12.7" y2="175.26" width="0.2032" layer="91"/>
 <label x="12.7" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -2778,7 +2831,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D3"/>
+<pinref part="SPARK" gate="G$1" pin="D3"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="134.62" x2="55.88" y2="134.62" width="0.2032" layer="91"/>
 </segment>
@@ -2790,14 +2843,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="205.74" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A7"/>
+<pinref part="SPARK" gate="G$1" pin="A7"/>
 <wire x1="17.78" y1="154.94" x2="10.16" y2="154.94" width="0.2032" layer="91"/>
 <label x="10.16" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED2_O" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D5"/>
+<pinref part="SPARK" gate="G$1" pin="D5"/>
 <wire x1="53.34" y1="144.78" x2="63.5" y2="144.78" width="0.2032" layer="91"/>
 <label x="53.34" y="144.78" size="1.778" layer="95"/>
 </segment>
