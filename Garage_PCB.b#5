@@ -593,6 +593,7 @@ design rules under a new name.</description>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="33.02" y="2.54"/>
 <element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="41.91"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="33.02" y="41.91"/>
+<element name="JP6" library="Mikes-Stuff" package="1X02_2.54_SCREWTERM" value="M022.54MM_SCREWTERM" x="-102.87" y="3.81"/>
 </elements>
 <signals>
 <signal name="VDDA">
@@ -682,6 +683,17 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="16"/>
 <contactref element="R3" pad="1"/>
 <wire x1="26.67" y1="12.7" x2="30.9" y2="14.478" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RNG2_I">
+<contactref element="JP6" pad="P1"/>
+<contactref element="U$1" pad="5"/>
+<wire x1="8.89" y1="22.86" x2="-100.33" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED2_0">
+<contactref element="JP6" pad="P2"/>
+</signal>
+<signal name="LED2_O">
+<contactref element="U$1" pad="18"/>
 </signal>
 </signals>
 </board>
