@@ -760,6 +760,42 @@ High-power, low thermal resistance package.</description>
 <text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="TO220-ALT">
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="11.176" radius="3.048" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="3.048" width="0" layer="43"/>
+<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
+<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">I</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10">O</text>
+<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
+<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOSFET-NCHANNEL-1">
@@ -922,6 +958,16 @@ High-power, low thermal resistance package.</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="2"/>
 <connect gate="G$1" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FQP30N06L-ALT" package="TO220-ALT">
+<connects>
+<connect gate="G$1" pin="D" pad="GND"/>
+<connect gate="G$1" pin="G" pad="IN"/>
+<connect gate="G$1" pin="S" pad="OUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2618,7 +2664,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FQP30N06L"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FQP30N06L-ALT" value="MOSFET-NCHANNELFQP30N06L-ALT"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="24V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="24V"/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="-TO-220"/>
@@ -2668,30 +2714,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <busses>
 </busses>
 <nets>
-<net name="BTN_P" class="0">
-<segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="114.3" x2="205.74" y2="114.3" width="0.2032" layer="91"/>
-<label x="205.74" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="175.26" x2="104.14" y2="182.88" width="0.2032" layer="91"/>
-<label x="104.14" y="175.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="BTN_N" class="0">
-<segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="111.76" x2="205.74" y2="111.76" width="0.2032" layer="91"/>
-<label x="205.74" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="104.14" y1="152.4" x2="104.14" y2="144.78" width="0.2032" layer="91"/>
-<label x="104.14" y="144.78" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="LED_O" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
@@ -2858,6 +2880,30 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="JP6" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="127" x2="205.74" y2="127" width="0.2032" layer="91"/>
 <label x="205.74" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_H" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="114.3" x2="205.74" y2="114.3" width="0.2032" layer="91"/>
+<label x="205.74" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="175.26" x2="104.14" y2="182.88" width="0.2032" layer="91"/>
+<label x="104.14" y="175.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="BTN_L" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="111.76" x2="205.74" y2="111.76" width="0.2032" layer="91"/>
+<label x="205.74" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="104.14" y1="152.4" x2="104.14" y2="144.78" width="0.2032" layer="91"/>
+<label x="104.14" y="144.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

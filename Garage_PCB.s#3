@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -460,19 +460,19 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.2032" layer="21"/>
 </package>
 <package name="SPARK_LOGO2">
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="21">
 <vertex x="2.2606" y="1.1684"/>
 <vertex x="1.6764" y="1.2954"/>
 <vertex x="1.6002" y="1.1684"/>
 <vertex x="1.6764" y="1.0414"/>
 </polygon>
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="21">
 <vertex x="0.0254" y="1.1684"/>
 <vertex x="0.6096" y="1.2954"/>
 <vertex x="0.7112" y="1.1684"/>
 <vertex x="0.6096" y="1.0414"/>
 </polygon>
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="21">
 <vertex x="0.381" y="1.9304"/>
 <vertex x="0.8636" y="1.1684"/>
 <vertex x="0.3556" y="0.3556"/>
@@ -482,13 +482,13 @@ Standard 8.5x11 US Letter frame</description>
 <vertex x="1.9304" y="1.9304"/>
 <vertex x="1.143" y="1.4478"/>
 </polygon>
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="21">
 <vertex x="1.143" y="2.286"/>
 <vertex x="1.016" y="1.6764"/>
 <vertex x="1.143" y="1.6002"/>
 <vertex x="1.27" y="1.6764"/>
 </polygon>
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="21">
 <vertex x="1.143" y="0.7112"/>
 <vertex x="1.016" y="0.635"/>
 <vertex x="1.143" y="0.0254"/>
