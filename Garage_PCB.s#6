@@ -603,42 +603,42 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="TO220-ALT">
-<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
-<circle x="0" y="11.176" radius="3.048" width="0" layer="42"/>
-<circle x="0" y="11.176" radius="3.048" width="0" layer="43"/>
-<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-6.08" y="-0.81" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="7.46" y="-0.937" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
-<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">I</text>
-<text x="2.032" y="0" size="1.27" layer="51" ratio="10">O</text>
-<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
-<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
-<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
-<hole x="0" y="11.176" drill="3.302"/>
-<smd name="THRM" x="0" y="3.5" dx="9.1" dy="8.2" layer="1"/>
+<package name="TO220-THRM">
+<wire x1="-5.207" y1="-3.81" x2="5.207" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.065" x2="-5.207" y2="12.065" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-3.81" x2="5.207" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="8.636" x2="4.318" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="8.636" x2="4.318" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="10.16" x2="5.207" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="10.16" x2="5.207" y2="12.065" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-3.81" x2="-5.207" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="8.636" x2="-4.318" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="8.636" x2="-4.318" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="10.16" x2="-5.207" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="10.16" x2="-5.207" y2="12.065" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-3.175" x2="4.572" y2="-3.175" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="5.08" x2="4.572" y2="-3.175" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="5.08" x2="-4.572" y2="5.08" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-3.175" x2="-4.572" y2="5.08" width="0.0508" layer="21"/>
+<circle x="0" y="8.636" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="8.636" radius="3.048" width="0" layer="42"/>
+<circle x="0" y="8.636" radius="3.048" width="0" layer="43"/>
+<pad name="IN" x="-2.54" y="-6.35" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="0" y="-6.35" drill="1.016" shape="long" rot="R90"/>
+<pad name="OUT" x="2.54" y="-6.35" drill="1.016" shape="long" rot="R90"/>
+<text x="-6.08" y="-3.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.46" y="-3.477" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-0.508" y="-2.54" size="1.27" layer="51" ratio="10">-</text>
+<text x="-3.048" y="-2.54" size="1.27" layer="51" ratio="10">I</text>
+<text x="2.032" y="-2.54" size="1.27" layer="51" ratio="10">O</text>
+<rectangle x1="1.905" y1="-4.699" x2="3.175" y2="-3.81" layer="21"/>
+<rectangle x1="1.905" y1="-6.35" x2="3.175" y2="-4.699" layer="51"/>
+<rectangle x1="-0.635" y1="-4.699" x2="0.635" y2="-3.81" layer="21"/>
+<rectangle x1="-3.175" y1="-4.699" x2="-1.905" y2="-3.81" layer="21"/>
+<rectangle x1="-0.635" y1="-6.35" x2="0.635" y2="-4.699" layer="51"/>
+<rectangle x1="-3.175" y1="-6.35" x2="-1.905" y2="-4.699" layer="51"/>
+<hole x="0" y="8.636" drill="3.302"/>
+<smd name="THRM" x="0" y="0.96" dx="9.1" dy="8.2" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -705,7 +705,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <gate name="G$1" symbol="MOSFET-NCHANNEL-THRM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="FQP30N06L-ALT" package="TO220-ALT">
+<device name="TO-220-THRM" package="TO220-THRM">
 <connects>
 <connect gate="G$1" pin="D" pad="GND"/>
 <connect gate="G$1" pin="G" pad="IN"/>
@@ -1849,7 +1849,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL_THRM" device="FQP30N06L-ALT" value="MOSFET-NCHANNEL_THRMFQP30N06L-ALT"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL_THRM" device="TO-220-THRM" value="MOSFET-NCHANNEL_THRMTO-220-THRM"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="66"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
